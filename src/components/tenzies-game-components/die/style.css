@@ -1,0 +1,217 @@
+.die-wrapper{
+    cursor: pointer;
+    background-color: #ffffff;
+    /* padding: 12px 20px; */
+    font-size: 25px;
+    font-weight: 800;
+    border-radius: 10px;
+    box-shadow: 1px 2px 4px rgb(157, 156, 156);
+    transition: all 0.3s;
+    user-select: none;
+    position: relative;
+    height: 65px;
+    width: 60px;
+}
+
+.die-wrapper:active{
+    transform: scale(0.8);
+}
+
+.die-wrapper-held{
+    cursor: pointer;
+    background-color: #37fc3e;
+    /* padding: 12px 20px; */
+    font-size: 25px;
+    font-weight: 800;
+    border-radius: 10px;
+    box-shadow: 1px 2px 4px rgb(157, 156, 156);
+    transition: all 0.3s;
+    user-select: none;
+    position: relative;
+    height: 65px;
+    width: 60px;
+
+}
+
+.die-wrapper-held:active{
+    transform: scale(0.8);
+}
+
+/* 
+.number-one-wrapper{
+} */
+
+.number-one-wrapper:nth-child(1){
+    position: absolute;
+    top: -8px;
+    left: 8px;
+    /* color: red; */
+    /* height: 10px; */
+}
+
+.number-two-wrapper>li:nth-child(1){
+    position: absolute;
+    top: 16px;
+    left: 35px;
+    /* color: red; */
+    /* color: red; */
+    /* height: 10px; */
+}
+.number-two-wrapper>li:nth-child(2){
+    position: absolute;
+    top: 16px;
+    left: 60px;
+    /* color: greenyellow; */
+    /* color: red; */
+    /* height: 10px; */
+}
+
+
+.number-three-wrapper>li:nth-child(1){
+    position: absolute;
+    left: 32px;
+    bottom: 0;
+    /* color: red; */
+    /* height: 10px; */
+}
+.number-three-wrapper>li:nth-child(2){
+    position: absolute;
+    top: 18px;
+    left: 48px;
+    /* color: greenyellow; */
+    /* color: red; */
+    /* height: 10px; */
+}
+.number-three-wrapper>li:nth-child(3){
+    position: absolute;
+    top: 0;
+    left: 66px;
+    /* color: greenyellow; */
+    /* color: red; */
+    /* height: 10px; */
+}
+
+
+.number-four-wrapper>li:nth-child(1){
+    position: absolute;
+    top: 0;
+    left: 32px;
+    /* color: red; */
+    /* height: 10px; */
+}
+.number-four-wrapper>li:nth-child(2){
+    position: absolute;
+    top: 0;
+    left: 63px;
+    /* color: greenyellow; */
+    /* color: red; */
+    /* height: 10px; */
+}
+.number-four-wrapper>li:nth-child(3){
+    position: absolute;
+    left: 63px;
+    bottom: 0;
+    /* color: greenyellow; */
+    /* color: red; */
+    /* height: 10px; */
+}
+.number-four-wrapper>li:nth-child(4){
+    position: absolute;
+    left: 33px;
+    bottom: 0;
+    /* color: greenyellow; */
+    /* color: red; */
+    /* height: 10px; */
+}
+
+
+.number-five-wrapper>li:nth-child(1){
+    position: absolute;
+    top: 0;
+    left: 32px;
+    /* color: red; */
+    /* height: 10px; */
+}
+.number-five-wrapper>li:nth-child(2){
+    position: absolute;
+    top: 0;
+    left: 63px;
+    /* color: greenyellow; */
+    /* color: red; */
+    /* height: 10px; */
+}
+.number-five-wrapper>li:nth-child(3){
+    position: absolute;
+    left: 63px;
+    bottom: 0;
+    /* color: greenyellow; */
+    /* color: red; */
+    /* height: 10px; */
+}
+.number-five-wrapper>li:nth-child(4){
+    position: absolute;
+    left: 33px;
+    bottom: 0;
+    /* color: greenyellow; */
+    /* color: red; */
+    /* height: 10px; */
+}
+.number-five-wrapper>li:nth-child(5){
+    position: absolute;
+    top: 17px;
+    left: 48px;
+    /* color: greenyellow; */
+    /* color: red; */
+    /* height: 10px; */
+}
+
+
+.number-six-wrapper>li:nth-child(1){
+    position: absolute;
+    top: 0;
+    left: 32px;
+    /* color: red; */
+    /* height: 10px; */
+}
+.number-six-wrapper>li:nth-child(2){
+    position: absolute;
+    top: 17px;
+    left: 32px;
+    /* color: greenyellow; */
+    /* color: red; */
+    /* height: 10px; */
+}
+.number-six-wrapper>li:nth-child(3){
+    position: absolute;
+    left: 32px;
+    bottom: 0;
+    /* color: greenyellow; */
+    /* color: red; */
+    /* height: 10px; */
+}
+.number-six-wrapper>li:nth-child(4){
+    position: absolute;
+    top: 0;
+    left: 62px;
+    /* color: greenyellow; */
+    /* color: red; */
+    /* height: 10px; */
+}
+.number-six-wrapper>li:nth-child(5){
+    position: absolute;
+    top: 17px;
+    left: 62px;
+    /* color: greenyellow; */
+    /* color: red; */
+    /* height: 10px; */
+}
+.number-six-wrapper>li:nth-child(6){
+    position: absolute;
+    left: 62px;
+    bottom: 0;
+    /* color: greenyellow; */
+    /* color: red; */
+    /* height: 10px; */
+}
+
+

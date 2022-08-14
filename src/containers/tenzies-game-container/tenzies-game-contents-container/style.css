@@ -1,0 +1,62 @@
+.game-content-container{
+    background-color: rgb(250, 231, 210);
+    height: 90%;
+    width: 90%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+
+.game-intro-text-wrapper{
+    position: absolute;
+    top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    margin: 0px 50px;
+}
+
+.game-name-wrapper{
+    font-size: 30px;
+    font-weight: 800;
+}
+.info-text-wrapper{
+    padding: 10px;
+    font-weight: 500;
+}
+
+.dice-container{
+    top: 40%;
+    position: absolute;
+    display: grid;
+    grid-template: auto auto / repeat(5,1fr);
+    gap: 20px;
+}
+
+.die-roll-btn-container{
+    position: absolute;
+    top: 82%;
+}
+
+.roll-die-btn{
+    padding: 10px 35px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    background-color: #5035FF;
+    color: aliceblue;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.roll-die-btn:hover{
+    transform: scale(1.05);
+    background-color: #3c1ffa;
+
+}
